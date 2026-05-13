@@ -10,3 +10,5 @@ const EmployeeController = {
         res.json(employee)
     }
 }
+
+export default EmployeeController
