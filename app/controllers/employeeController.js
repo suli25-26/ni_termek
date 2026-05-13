@@ -1,6 +1,5 @@
 import Employee from "../models/employee.js"
 
-
 const EmployeeController = {
     index: async (req, res) => {
         const employees = await Employee.findAll()
